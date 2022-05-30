@@ -1,0 +1,11 @@
+@mixin myFlex($flexDirection, $justifyContent, $alignItems ) {
+    display: flex;
+    flex-direction: $flexDirection;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+
+@mixin fadeInTransition($transitionProp) {
+    // transition: <property> <duration> <timing-function> <delay>;
+    transition: $transitionProp 0.3s ease-out;
+}
