@@ -5,7 +5,7 @@
     align-items: $alignItems;
 }
 
-@mixin fadeInTransition($transitionProp) {
+@mixin fadeInTransition {
     // transition: <property> <duration> <timing-function> <delay>;
-    transition: $transitionProp 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
