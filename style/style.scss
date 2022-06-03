@@ -1386,6 +1386,7 @@ footer {
   .offer-banner {
     height: auto;
     padding: 10px;
+    width: 100%;
   }
 
   /* header for Mobile*/
@@ -1482,8 +1483,6 @@ footer {
         position: fixed;
         padding: 250px 0 147px 38px;
         background-color: $alabasterr-f7f7f7;
-        color: $oxford-blue-354e57;
-        font-size: 24px;
         @include myFlex(column, "", flex-start);
         margin-top: 0;
         z-index: 999;
@@ -1510,7 +1509,7 @@ footer {
 
       .main-menu {
         &.active {
-          padding: 80.02px 10px 10px 47px;
+          padding: 80.02px 10px 24px 47px;
           margin: 0 10px 0 0;
           background-color: $alabasterr-f7f7f7;
           width: 100%;
