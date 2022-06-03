@@ -2,7 +2,7 @@
 /* Colors: */
 /* Font/text values */
 /* Character Styles */
-@import url(c:\Adobe-Training\capstone_project\project-1\style\fonts\font-face.css);
+@import url("https://p.typekit.net/p.css?s=1&k=zyc6nzr&ht=tk&f=139.140.175.176.143.144.147.148.156.157.161.162&a=112709402&app=typekit&e=css");
 .headline-—-48pt {
   font-family: Proxima Nova;
   font-style: normal;
@@ -86,9 +86,152 @@ html {
   background-color: #e0e3e8;
 }
 
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * proxima-nova:
+ *   - http://typekit.com/eulas/00000000000000007735e603
+ *   - http://typekit.com/eulas/00000000000000007735e604
+ *   - http://typekit.com/eulas/00000000000000007735e609
+ *   - http://typekit.com/eulas/00000000000000007735e616
+ * proxima-nova-condensed:
+ *   - http://typekit.com/eulas/00000000000000007735e60c
+ *   - http://typekit.com/eulas/00000000000000007735e61d
+ *   - http://typekit.com/eulas/00000000000000007735e623
+ *   - http://typekit.com/eulas/00000000000000007735e62c
+ * proxima-nova-extra-condensed:
+ *   - http://typekit.com/eulas/00000000000000007735e618
+ *   - http://typekit.com/eulas/00000000000000007735e60b
+ *   - http://typekit.com/eulas/00000000000000007735e629
+ *   - http://typekit.com/eulas/00000000000000007735e620
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2022-05-27 06:56:04 UTC"}*/
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://use.typekit.net/af/15606c/00000000000000007735e60c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/15606c/00000000000000007735e60c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/15606c/00000000000000007735e60c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://use.typekit.net/af/1ea53e/00000000000000007735e61d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/1ea53e/00000000000000007735e61d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/1ea53e/00000000000000007735e61d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://use.typekit.net/af/669f97/00000000000000007735e623/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/669f97/00000000000000007735e623/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/669f97/00000000000000007735e623/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://use.typekit.net/af/4d69d6/00000000000000007735e62c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/4d69d6/00000000000000007735e62c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/4d69d6/00000000000000007735e62c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-extra-condensed";
+  src: url("https://use.typekit.net/af/de3701/00000000000000007735e618/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/de3701/00000000000000007735e618/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/de3701/00000000000000007735e618/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-extra-condensed";
+  src: url("https://use.typekit.net/af/7cc641/00000000000000007735e60b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/7cc641/00000000000000007735e60b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/7cc641/00000000000000007735e60b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-extra-condensed";
+  src: url("https://use.typekit.net/af/6a4fa5/00000000000000007735e629/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/6a4fa5/00000000000000007735e629/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/6a4fa5/00000000000000007735e629/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "proxima-nova-extra-condensed";
+  src: url("https://use.typekit.net/af/4c1fee/00000000000000007735e620/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/4c1fee/00000000000000007735e620/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/4c1fee/00000000000000007735e620/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+.tk-proxima-nova {
+  font-family: "proxima-nova",sans-serif;
+}
+
+.tk-proxima-nova-condensed {
+  font-family: "proxima-nova-condensed",sans-serif;
+}
+
+.tk-proxima-nova-extra-condensed {
+  font-family: "proxima-nova-extra-condensed",sans-serif;
+}
+
 body {
-  opacity: 1;
-  font-family: "Proxima Nova", m, sans-serif;
   overflow-x: hidden;
   background-color: #e0e3e8;
 }
@@ -1077,7 +1220,7 @@ body {
 }
 
 .product-teaser-4 .card-container section .card .product-image.leaf-image {
-  background: #fafafa url("../assets/images/annie-spratt-hX_hf2lPpUU-unsplash.png") 100% 110% no-repeat padding-box;
+  background: transparent url("../assets/images/annie-spratt-hX_hf2lPpUU-unsplash.png") 100% 110% no-repeat padding-box;
   background-size: 250px 350px;
 }
 
@@ -2083,15 +2226,16 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
             align-items: center;
     margin: 10px 0 0 2px;
     width: 100%;
-    height: 450px;
+    height: max-height;
   }
   .hero-banner .left-banner .banner-header-1 {
     display: none;
   }
   .hero-banner .left-banner .banner-header-2 {
-    height: 116px;
+    font-size: 48px;
+    height: max-width;
     width: 333px;
-    margin: 2px 35px 4px 35px;
+    margin: 21px 5px 4px 21px;
   }
   .hero-banner .left-banner .banner-text-1 {
     width: 334px;
@@ -2107,7 +2251,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     height: 35px;
   }
   .hero-banner .right-banner {
-    height: inherit;
+    height: max-height;
   }
   .hero-banner .right-banner .banner-image-container {
     width: 289.57px;
@@ -2432,7 +2576,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    height: 698px;
+    height: 598px;
     background: #eef3f4 0% 0% no-repeat padding-box;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -2455,7 +2599,16 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   .product-teaser-4 nav {
     width: 1088px;
     height: 20px;
-    margin: 82px 100px 29px 860px;
+    margin: 61px 100px 19px 860px;
+  }
+  .product-teaser-4 .product-image {
+    width: 251px;
+    height: 346px;
+    background-color: #fafafa;
+  }
+  .product-teaser-4 .product-image.leaf-image {
+    -o-object-fit: none;
+       object-fit: none;
   }
   .product-teaser-4 .card-container {
     display: -webkit-box;
@@ -2560,7 +2713,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   .image-tiles .container .image-container section .card {
     width: 271px;
     height: 271px;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: -40px;
     text-align: center;
   }
@@ -3512,7 +3665,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     margin-left: 0;
   }
   .product-teaser-4 .card-container section .card .product-image.leaf-image {
-    background: #fafafa url("../assets/images/annie-spratt-hX_hf2lPpUU-unsplash@2x.png") 0% 100% no-repeat padding-box;
+    background: transparent url("../assets/images/annie-spratt-hX_hf2lPpUU-unsplash@2x.png") 0% 100% no-repeat padding-box;
     background-size: 251px 346px;
   }
   .product-teaser-4 .card-container section .card #psoriasisLarge {
