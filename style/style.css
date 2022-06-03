@@ -2,7 +2,7 @@
 /* Colors: */
 /* Font/text values */
 /* Character Styles */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(c:\Adobe-Training\capstone_project\project-1\style\fonts\font-face.css);
 .headline-—-48pt {
   font-family: Proxima Nova;
   font-style: normal;
@@ -181,12 +181,15 @@ body {
 
 .header .container .main-menu .left-menu {
   width: auto;
-  font: normal normal bold 12px/14px Proxima Nova;
-  color: #354E57;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Proxima Nova;
+  line-height: 14px;
   text-align: left;
-  font: normal normal bold 12px/14px Proxima Nova;
   letter-spacing: 0.6px;
-  color: #354e57;
+  color: #354E57;
   text-transform: uppercase;
   opacity: 1;
   display: -webkit-box;
@@ -281,6 +284,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 20px;
+  margin-left: 40px;
 }
 
 /* hero-banner */
@@ -494,7 +498,7 @@ body {
           align-items: center;
   width: 1366px;
   height: 698px;
-  background: #EEF3F4 0% 0% no-repeat padding-box;
+  background: #eef3f4 0% 0% no-repeat padding-box;
 }
 
 .product-teaser nav {
@@ -525,13 +529,15 @@ body {
 
 .product-teaser nav ul li a {
   text-decoration: none;
-  font: normal normal bold 0.82353 Proxima Nova;
-  letter-spacing: 0px;
-  color: #2E2E22;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Proxima Nova;
+  line-height: 17px;
   text-align: left;
   letter-spacing: 0px;
-  opacity: 1;
-  font-size: 14px;
+  color: #2E2E22;
 }
 
 .product-teaser .card-container {
@@ -605,7 +611,7 @@ body {
   text-align: left;
   font: normal normal 600 12px/14px Proxima Nova;
   letter-spacing: 0px;
-  color: #354E57;
+  color: #354e57;
   opacity: 1;
 }
 
@@ -621,49 +627,49 @@ body {
   text-align: left;
   font: normal normal 600 12px/14px Proxima Nova;
   letter-spacing: 0px;
-  color: #A67744;
+  color: #a67744;
   opacity: 1;
 }
 
 .product-teaser .card-container section .card .product-image {
   width: 251px;
   height: 346px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .product-teaser .card-container section .card #cream-1 {
-  background: #FAFAFA url("../assets/images/Cream1-1.png") 50% 160% no-repeat padding-box;
+  background: #fafafa url("../assets/images/Cream1-1.png") 50% 160% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #cream-1:hover {
-  background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 0% 100% no-repeat padding-box;
+  background: #fafafa url("../assets/images/product-teaser-hover.PNG") 0% 100% no-repeat padding-box;
   background-size: 1000px 345px;
 }
 
 .product-teaser .card-container section .card #solution {
-  background: #FAFAFA url("../assets/images/vitiligio-1.png") 50% 100% no-repeat padding-box;
+  background: #fafafa url("../assets/images/vitiligio-1.png") 50% 100% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #solution:hover {
-  background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 33% 20% no-repeat padding-box;
+  background: #fafafa url("../assets/images/product-teaser-hover.PNG") 33% 20% no-repeat padding-box;
   background-size: 1100px 345px;
 }
 
 .product-teaser .card-container section .card #cream-2 {
-  background: #FAFAFA url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
+  background: #fafafa url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #cream-2:hover {
-  background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 66% 10% no-repeat padding-box;
+  background: #fafafa url("../assets/images/product-teaser-hover.PNG") 66% 10% no-repeat padding-box;
   background-size: 1100px 345px;
 }
 
 .product-teaser .card-container section .card #ointment {
-  background: #FAFAFA url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
+  background: #fafafa url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #ointment:hover {
-  background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 100% 100% no-repeat padding-box;
+  background: #fafafa url("../assets/images/product-teaser-hover.PNG") 100% 100% no-repeat padding-box;
   background-size: 1000px 345px;
 }
 
@@ -672,10 +678,12 @@ body {
   width: 251px;
 }
 
-.product-teaser .card-container section .card .product-info .name, .product-teaser .card-container section .card .product-info .description, .product-teaser .card-container section .card .product-info .price {
+.product-teaser .card-container section .card .product-info .name,
+.product-teaser .card-container section .card .product-info .description,
+.product-teaser .card-container section .card .product-info .price {
   color: #2E2E22;
   text-align: left;
-  color: #2E2E22;
+  color: #2e2e22;
   letter-spacing: 0px;
   opacity: 1;
   margin-bottom: 3px;
@@ -831,37 +839,37 @@ body {
 
 /* product-teaser-2 */
 .product-teaser .card-container section .card #psoriasis {
-  background: #FAFAFA url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
+  background: #fafafa url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #ezceme {
-  background: #FAFAFA url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
+  background: #fafafa url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #sunburn-ointment {
-  background: #FAFAFA url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
+  background: #fafafa url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #balm-small {
-  background: #FAFAFA url("../assets/images/vitiligio_Balm.png") 50% 70% no-repeat padding-box;
+  background: #fafafa url("../assets/images/vitiligio_Balm.png") 50% 70% no-repeat padding-box;
 }
 
 /* product-teaser-3 */
 .product-teaser .card-container section .card #vitiligioSolution {
-  background: #FAFAFA url("../assets/images/vitiligio.png") 50% 70% no-repeat padding-box;
+  background: #fafafa url("../assets/images/vitiligio.png") 50% 70% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #acneCream {
-  background: #FAFAFA url("../assets/images/Cream1-1.png") 50% 135% no-repeat padding-box;
+  background: #fafafa url("../assets/images/Cream1-1.png") 50% 135% no-repeat padding-box;
 }
 
 .product-teaser .card-container section .card #acneCreamLarge {
-  background: #FAFAFA url("../assets/images/acne_Cream@2x.png") 50% 80% no-repeat padding-box;
+  background: #fafafa url("../assets/images/acne_Cream@2x.png") 50% 80% no-repeat padding-box;
   background-size: 200px 250px;
 }
 
 .product-teaser .card-container section .card #ezcemaOil {
-  background: #FAFAFA url("../assets/images/ezema_dropper.png") 50% 70% no-repeat padding-box;
+  background: #fafafa url("../assets/images/ezema_dropper.png") 50% 70% no-repeat padding-box;
 }
 
 /* teaser-2 */
@@ -929,7 +937,7 @@ body {
 .teaser-2 section:last-child .teaser-info button {
   width: 176px;
   height: 40px;
-  border: 1px solid #956A53;
+  border: 1px solid #956a53;
   background: transparent 0% 0% no-repeat padding-box;
   color: #2E2E22;
   text-align: center;
@@ -959,7 +967,7 @@ body {
           align-items: center;
   width: 1366px;
   height: 698px;
-  background: #EEF3F4 0% 0% no-repeat padding-box;
+  background: #eef3f4 0% 0% no-repeat padding-box;
 }
 
 .product-teaser-4 nav {
@@ -990,13 +998,15 @@ body {
 
 .product-teaser-4 nav ul li a {
   text-decoration: none;
-  font: normal normal bold 0.82353 Proxima Nova;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Proxima Nova;
+  line-height: 17px;
   letter-spacing: 0px;
   color: #2E2E22;
   text-align: left;
-  letter-spacing: 0px;
-  opacity: 1;
-  font-size: 14px;
 }
 
 .product-teaser-4 .card-container {
@@ -1063,23 +1073,28 @@ body {
 .product-teaser-4 .card-container section .card .product-image {
   width: 251px;
   height: 346px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
+}
+
+.product-teaser-4 .card-container section .card .product-image.leaf-image {
+  background: #fafafa url("../assets/images/annie-spratt-hX_hf2lPpUU-unsplash.png") 100% 110% no-repeat padding-box;
+  background-size: 250px 350px;
 }
 
 .product-teaser-4 .card-container section .card #psoriasisLarge {
-  background: #FAFAFA url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
+  background: #fafafa url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
 }
 
 .product-teaser-4 .card-container section .card #sunburnBalmLarge {
-  background: #FAFAFA url("../assets/images/suburn_balm.png") 50% 210% no-repeat padding-box;
+  background: #fafafa url("../assets/images/suburn_balm.png") 50% 210% no-repeat padding-box;
 }
 
 .product-teaser-4 .card-container section .card #psoriasisCreamLarge {
-  background: #FAFAFA url("../assets/images/psoriasi_Cream.png") 50% 90% no-repeat padding-box;
+  margin-top: 90px;
 }
 
 .product-teaser-4 .card-container section .card #vitiligioTreatment {
-  background: #FAFAFA url("../assets/images/vitiglio_treatment.png") 50% 100% no-repeat padding-box;
+  background: #fafafa url("../assets/images/vitiglio_treatment.png") 50% 100% no-repeat padding-box;
 }
 
 .product-teaser-4 .card-container section .card .product-info {
@@ -1087,10 +1102,12 @@ body {
   width: 251px;
 }
 
-.product-teaser-4 .card-container section .card .product-info .name, .product-teaser-4 .card-container section .card .product-info .description, .product-teaser-4 .card-container section .card .product-info .price {
+.product-teaser-4 .card-container section .card .product-info .name,
+.product-teaser-4 .card-container section .card .product-info .description,
+.product-teaser-4 .card-container section .card .product-info .price {
   color: #2E2E22;
   text-align: left;
-  color: #2E2E22;
+  color: #2e2e22;
   letter-spacing: 0px;
   opacity: 1;
   margin-bottom: 3px;
@@ -1519,7 +1536,7 @@ body {
 }
 
 .newsletter .button-container button:hover {
-  background: #9A6B39 0% 0% no-repeat padding-box;
+  background: #9a6b39 0% 0% no-repeat padding-box;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -1669,14 +1686,16 @@ footer .footer-container .sooth-info .footer-menu section h3 {
   padding-bottom: 32px;
 }
 
-footer .footer-container .sooth-info .footer-menu section h3, footer .footer-container .sooth-info .footer-menu section li {
+footer .footer-container .sooth-info .footer-menu section h3,
+footer .footer-container .sooth-info .footer-menu section li {
   width: 140px;
   height: 20px;
   list-style-type: none;
   margin-bottom: 10px;
 }
 
-footer .footer-container .sooth-info .footer-menu section h3 a, footer .footer-container .sooth-info .footer-menu section li a {
+footer .footer-container .sooth-info .footer-menu section h3 a,
+footer .footer-container .sooth-info .footer-menu section li a {
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
@@ -1961,7 +1980,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin-top: 0px;
+    margin-top: 0;
     z-index: 999;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
@@ -1970,6 +1989,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    margin-left: 0;
   }
   .header .container .sub-menu .sub-menu-item {
     font-size: 24px;
@@ -2044,7 +2064,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-position: top -10px right -130px;
+    background-position: top -20px right -130px;
     background-size: 850px;
   }
   .hero-banner .left-banner {
@@ -2061,9 +2081,9 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 2px 0 0 2px;
+    margin: 10px 0 0 2px;
     width: 100%;
-    height: 719px;
+    height: 450px;
   }
   .hero-banner .left-banner .banner-header-1 {
     display: none;
@@ -2071,12 +2091,11 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   .hero-banner .left-banner .banner-header-2 {
     height: 116px;
     width: 333px;
-    margin: 80px 35px 4px 35px;
+    margin: 2px 35px 4px 35px;
   }
   .hero-banner .left-banner .banner-text-1 {
     width: 334px;
     height: 99px;
-    margin-bottom: 28px;
     margin: 4px 20px 18px 35px;
   }
   .hero-banner .left-banner .banner-button {
@@ -2169,7 +2188,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
             align-items: "";
     width: 100%;
     height: 813px;
-    background: #EEF3F4 0% 0% no-repeat padding-box;
+    background: #eef3f4 0% 0% no-repeat padding-box;
   }
   .product-teaser nav {
     display: none;
@@ -2214,28 +2233,29 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     width: 160px;
     height: 345px;
   }
-  .product-teaser .card-container section .card .new, .product-teaser .card-container section .card .offer {
+  .product-teaser .card-container section .card .new,
+  .product-teaser .card-container section .card .offer {
     display: none;
   }
   .product-teaser .card-container section .card .product-image {
     width: 159px;
     height: 229px;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
   }
   .product-teaser .card-container section .card #cream-1 {
-    background: #FAFAFA url("../assets/images/Cream1-1.png") 50% 120% no-repeat padding-box;
+    background: #fafafa url("../assets/images/Cream1-1.png") 50% 120% no-repeat padding-box;
     background-size: 130px 150px;
   }
   .product-teaser .card-container section .card #solution {
-    background: #FAFAFA url("../assets/images/vitiligio-1.png") 50% 80% no-repeat padding-box;
+    background: #fafafa url("../assets/images/vitiligio-1.png") 50% 80% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card #cream-2 {
-    background: #FAFAFA url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
+    background: #fafafa url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card #ointment {
-    background: #FAFAFA url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
+    background: #fafafa url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card .product-info {
@@ -2302,36 +2322,36 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   }
   /* product-teaser-2 */
   .product-teaser .card-container section .card #psoriasis {
-    background: #FAFAFA url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
+    background: #fafafa url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card #ezceme {
-    background: #FAFAFA url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
+    background: #fafafa url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card #sunburn-ointment {
-    background: #FAFAFA url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
+    background: #fafafa url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card #balm-small {
-    background: #FAFAFA url("../assets/images/vitiligio_Balm.png") 50% 70% no-repeat padding-box;
+    background: #fafafa url("../assets/images/vitiligio_Balm.png") 50% 70% no-repeat padding-box;
     background-size: 150px 150px;
   }
   /* product-teaser-3 */
   .product-teaser .card-container section .card #vitiligioSolution {
-    background: #FAFAFA url("../assets/images/vitiligio.png") 50% 80% no-repeat padding-box;
+    background: #fafafa url("../assets/images/vitiligio.png") 50% 80% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card #acneCream {
-    background: #FAFAFA url("../assets/images/Cream1-1.png") 50% 100% no-repeat padding-box;
+    background: #fafafa url("../assets/images/Cream1-1.png") 50% 100% no-repeat padding-box;
     background-size: 130px 150px;
   }
   .product-teaser .card-container section .card #acneCreamLarge {
-    background: #FAFAFA url("../assets/images/acne_Cream@2x.png") 50% 80% no-repeat padding-box;
+    background: #fafafa url("../assets/images/acne_Cream@2x.png") 50% 80% no-repeat padding-box;
     background-size: 150px 150px;
   }
   .product-teaser .card-container section .card #ezcemaOil {
-    background: #FAFAFA url("../assets/images/ezema_dropper.png") 50% 70% no-repeat padding-box;
+    background: #fafafa url("../assets/images/ezema_dropper.png") 50% 70% no-repeat padding-box;
     background-size: 150px 150px;
   }
   /* teaser-2 */
@@ -2384,7 +2404,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   .teaser-2 section:last-child .teaser-info button {
     width: 176px;
     height: 40px;
-    border: 1px solid #956A53;
+    border: 1px solid #956a53;
     background: transparent 0% 0% no-repeat padding-box;
     color: #2E2E22;
     text-align: center;
@@ -2413,7 +2433,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
             align-items: center;
     width: 100%;
     height: 698px;
-    background: #EEF3F4 0% 0% no-repeat padding-box;
+    background: #eef3f4 0% 0% no-repeat padding-box;
     overflow-x: scroll;
     overflow-y: hidden;
   }
@@ -2422,7 +2442,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     height: 3px;
   }
   .product-teaser-4::-webkit-scrollbar-track {
-    background: #D3D3D3;
+    background: #d3d3d3;
   }
   .product-teaser-4::-webkit-scrollbar-thumb {
     background: #354E57;
@@ -2719,7 +2739,8 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   footer .footer-container .sooth-info .footer-menu section h3 {
     padding-bottom: 32px;
   }
-  footer .footer-container .sooth-info .footer-menu section h3, footer .footer-container .sooth-info .footer-menu section li {
+  footer .footer-container .sooth-info .footer-menu section h3,
+  footer .footer-container .sooth-info .footer-menu section li {
     margin-bottom: 10px;
   }
   footer .footer-container .sooth-info .footer-menu .sooth-menu {
@@ -2986,6 +3007,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    margin-left: 0;
   }
   .header .container .sub-menu .sub-menu-item {
     font-size: 24px;
@@ -3204,7 +3226,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
             align-items: center;
     width: 100%;
     height: 1062px;
-    background: #EEF3F4 0% 0% no-repeat padding-box;
+    background: #eef3f4 0% 0% no-repeat padding-box;
   }
   .product-teaser nav {
     display: none;
@@ -3266,50 +3288,53 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   .product-teaser .card-container section .card:first-child {
     margin-left: 0;
   }
-  .product-teaser .card-container section .card .new, .product-teaser .card-container section .card .offer {
+  .product-teaser .card-container section .card .new,
+  .product-teaser .card-container section .card .offer {
     display: none;
   }
   .product-teaser .card-container section .card .product-image {
     width: 251px;
     height: 346px;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
   }
   .product-teaser .card-container section .card #cream-1 {
-    background: #FAFAFA url("../assets/images/Cream1-1.png") 50% 160% no-repeat padding-box;
+    background: #fafafa url("../assets/images/Cream1-1.png") 50% 160% no-repeat padding-box;
   }
   .product-teaser .card-container section .card #cream-1:hover {
-    background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 0% 100% no-repeat padding-box;
+    background: #fafafa url("../assets/images/product-teaser-hover.PNG") 0% 100% no-repeat padding-box;
     background-size: 1000px 345px;
   }
   .product-teaser .card-container section .card #solution {
-    background: #FAFAFA url("../assets/images/vitiligio-1.png") 50% 100% no-repeat padding-box;
+    background: #fafafa url("../assets/images/vitiligio-1.png") 50% 100% no-repeat padding-box;
   }
   .product-teaser .card-container section .card #solution:hover {
-    background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 33% 20% no-repeat padding-box;
+    background: #fafafa url("../assets/images/product-teaser-hover.PNG") 33% 20% no-repeat padding-box;
     background-size: 1100px 345px;
   }
   .product-teaser .card-container section .card #cream-2 {
-    background: #FAFAFA url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
+    background: #fafafa url("../assets/images/ezcema-1.png") 50% 75% no-repeat padding-box;
   }
   .product-teaser .card-container section .card #cream-2:hover {
-    background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 66% 10% no-repeat padding-box;
+    background: #fafafa url("../assets/images/product-teaser-hover.PNG") 66% 10% no-repeat padding-box;
     background-size: 1100px 345px;
   }
   .product-teaser .card-container section .card #ointment {
-    background: #FAFAFA url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
+    background: #fafafa url("../assets/images/suburn1-1.png") 50% 70% no-repeat padding-box;
   }
   .product-teaser .card-container section .card #ointment:hover {
-    background: #FAFAFA url("../assets/images/product-teaser-hover.PNG") 100% 100% no-repeat padding-box;
+    background: #fafafa url("../assets/images/product-teaser-hover.PNG") 100% 100% no-repeat padding-box;
     background-size: 1000px 345px;
   }
   .product-teaser .card-container section .card .product-info {
     text-align: left;
     width: 251px;
   }
-  .product-teaser .card-container section .card .product-info .name, .product-teaser .card-container section .card .product-info .description, .product-teaser .card-container section .card .product-info .price {
+  .product-teaser .card-container section .card .product-info .name,
+  .product-teaser .card-container section .card .product-info .description,
+  .product-teaser .card-container section .card .product-info .price {
     color: #2E2E22;
     text-align: left;
-    color: #2E2E22;
+    color: #2e2e22;
     letter-spacing: 0px;
     opacity: 1;
     margin-bottom: 3px;
@@ -3425,7 +3450,7 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
             align-items: center;
     width: 100%;
     height: 960px;
-    background: #EEF3F4 0% 0% no-repeat padding-box;
+    background: #eef3f4 0% 0% no-repeat padding-box;
   }
   .product-teaser-4 nav {
     display: none;
@@ -3486,30 +3511,35 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   .product-teaser-4 .card-container section .card:first-child {
     margin-left: 0;
   }
+  .product-teaser-4 .card-container section .card .product-image.leaf-image {
+    background: #fafafa url("../assets/images/annie-spratt-hX_hf2lPpUU-unsplash@2x.png") 0% 100% no-repeat padding-box;
+    background-size: 251px 346px;
+  }
   .product-teaser-4 .card-container section .card #psoriasisLarge {
-    background: #FAFAFA url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
+    background: #fafafa url("../assets/images/psoriasis_treatment.png") 50% 70% no-repeat padding-box;
     background-size: 220px 220px;
   }
   .product-teaser-4 .card-container section .card #sunburnBalmLarge {
-    background: #FAFAFA url("../assets/images/suburn_balm.png") 50% 170% no-repeat padding-box;
+    background: #fafafa url("../assets/images/suburn_balm.png") 50% 170% no-repeat padding-box;
     background-size: 240px 240px;
   }
   .product-teaser-4 .card-container section .card #psoriasisCreamLarge {
-    background: #FAFAFA url("../assets/images/psoriasi_Cream.png") 50% 90% no-repeat padding-box;
-    background-size: 220px 220px;
+    margin-top: 30px;
   }
   .product-teaser-4 .card-container section .card #vitiligioTreatment {
-    background: #FAFAFA url("../assets/images/vitiglio_treatment.png") 50% 110% no-repeat padding-box;
+    background: #fafafa url("../assets/images/vitiglio_treatment.png") 50% 110% no-repeat padding-box;
     background-size: 210px 210px;
   }
   .product-teaser-4 .card-container section .card .product-info {
     text-align: left;
     width: 251px;
   }
-  .product-teaser-4 .card-container section .card .product-info .name, .product-teaser-4 .card-container section .card .product-info .description, .product-teaser-4 .card-container section .card .product-info .price {
+  .product-teaser-4 .card-container section .card .product-info .name,
+  .product-teaser-4 .card-container section .card .product-info .description,
+  .product-teaser-4 .card-container section .card .product-info .price {
     color: #2E2E22;
     text-align: left;
-    color: #2E2E22;
+    color: #2e2e22;
     letter-spacing: 0px;
     opacity: 1;
     margin-bottom: 3px;
@@ -3841,7 +3871,8 @@ footer .footer-container .sooth-links .links .link-group-2 li a img {
   footer .footer-container .sooth-info .footer-menu section h3 {
     padding-bottom: 32px;
   }
-  footer .footer-container .sooth-info .footer-menu section h3, footer .footer-container .sooth-info .footer-menu section li {
+  footer .footer-container .sooth-info .footer-menu section h3,
+  footer .footer-container .sooth-info .footer-menu section li {
     margin-bottom: 10px;
   }
   footer .footer-container .sooth-info .footer-menu .sooth-menu {
